@@ -1,0 +1,4 @@
+inputs/stage3/*.tar.bz2 filter=lfs diff=lfs merge=lfs -text
+inputs/distfiles/*.tar.bz2 filter=lfs diff=lfs merge=lfs -text
+inputs/distfiles/*.tar.gz filter=lfs diff=lfs merge=lfs -text
+inputs/distfiles/*.patch.bz2 filter=lfs diff=lfs merge=lfs -text
